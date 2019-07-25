@@ -1,0 +1,441 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+.conteiner {
+    box-sizing: border-box;
+    height: 100%;
+}
+.head {
+    
+    background-color: black;
+    height: 50px;
+    display: flex;
+    flex-direction: row; 
+}
+.logo {
+    justify-content: flex-end;
+    order:1;
+    text-align: center;
+    align-self: center;
+    padding-left: 60px;
+}
+.logo img {
+    width: 50px;
+    
+}
+.list {
+    flex: 1;
+    order: 2;
+    padding-right: 30px;
+    padding-left: 30px;
+    text-align: center;
+    align-self: center;
+    justify-content: center;
+}
+
+.list ul {
+    list-style-type: none;
+
+}
+.list a {
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    font-size: 15px;
+    text-align: center;
+}
+i {
+    color: white;
+}
+.list a:hover {
+    background-color: #555;
+}
+.column {
+    display: flex;
+    background-color: rgba(251, 251, 255, 0.924);
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    height: 200px;
+    
+}
+.iphone {
+    font-size: 35px;
+    flex: 1;
+    padding: 20px;
+}
+p {
+    font-size: 25px;
+   
+    flex: 1;
+}
+.buy {
+    display: flex;
+    flex-direction: row;
+    height: 50px;
+    padding: 20px;
+    text-align: center;
+}
+.buy a{
+    text-decoration: none;
+    text-align: center;
+    
+    font-size: 25px;
+    padding: 10px;
+    color: blue;
+}
+.buy li {
+    list-style: none;
+}
+.buy li:hover {
+   
+   text-decoration: underline;
+}
+.column_one {
+    display: flex;
+    background-color: rgba(251, 251, 253, 0.966);
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    height: 800px;
+    margin-top: 10px;
+}
+
+
+.iphone_img {
+    flex: 1;
+    margin-inline-start: -1200px;
+    position: inherit;
+    width: 60px;
+}
+
+.iphone_img a{
+   text-decoration: none;
+   list-style: none;
+        
+}
+
+.column_two {
+    display: flex;
+    background-color: rgba(251, 251, 253, 0.966);
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    height: 500px;
+    margin-top: 10px;
+}
+.iphone_img1 {
+    flex: 1;
+    position: inherit;
+    width: 200px;
+    height: 100px
+}
+.column_three {
+    display: flex;
+    background-color: rgba(251, 251, 253, 0.966);
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    height: 800px;
+    margin-top: 10px;
+}
+.series {
+    font-size: 30px;
+    text-align: center;
+    color: red; 
+}
+.apple1 {
+    display:  flex;
+    flex-direction: row;
+    
+}
+.iphone1 {
+    font-size: 50px;
+}
+.apple img{
+    width: 50px;
+    height: 50px;
+    flex: 1;
+}  
+.apple a {
+    list-style: none;
+    text-decoration: none;
+    color: black;
+    padding-bottom: 10px;
+}
+.iphone_img2 {
+    flex: 1;
+    position: inherit;
+    width: 200px;
+    height: 100px;
+    align-items: center;
+    margin-left: -400px;
+}
+
+.column_four {
+    display: flex;
+    flex-direction: row;
+    height: 600px;
+    background-color: rgb(250, 248, 248);  
+    padding: 10px;
+}
+.mac {
+    flex: 1;
+    height: 600px;
+    padding-left: 80px;
+    background-color: rgb(250, 246, 247);
+    align-items: center;
+}
+.mac1 {
+    flex: 1;
+    height: 420px;
+    align-items: center;
+    
+    align-items: center;
+    background-color: rgb(250, 246, 247);
+    
+}
+
+.text {
+    text-align: center;
+    margin-left: 30px;
+}
+.text1 {
+    text-align: center;
+}
+.iPad {
+    text-align: center;
+}
+.iPad1 {
+    text-align: center;
+}
+.Mac_img {
+  
+    margin-left: -30px;
+}
+.Mac1_img {
+   
+    margin-left: 120px;
+}
+.shop {
+    display: flex;
+    flex-direction: column;
+    height: 50px;
+    padding: 20px;
+    text-align: center;
+}
+.shop a{
+    text-decoration: none;
+    text-align: center;
+    
+    font-size: 25px;
+    padding: 10px;
+    color: blue;
+}
+.shop li {
+    list-style: none;
+    
+}
+.shop li:hover {
+    text-decoration: underline;
+}
+.learn {
+    display: flex;
+    flex-direction: row;
+    height: 50px;
+    padding: 20px;
+    padding-left: 160px; 
+    text-align: center;
+}
+.learn a {
+    text-decoration: none;
+    text-align: center;  
+    font-size: 25px;
+    padding: 10px;
+    color: blue;
+}
+
+.learn  li {
+    list-style: none;
+}
+.learn  li:hover {
+   text-decoration: underline;
+}
+
+.column_five {
+    display: flex;
+    flex-direction: row;
+    height: 600px;
+    background-color: rgb(250, 244, 245);  
+    padding: 10px;
+
+}
+
+.macbook {
+
+    flex: 1;
+    height: 600px;
+    
+    background-color: rgb(250, 246, 247);
+    align-items: center;
+}
+.macbook1 {
+    flex: 1;
+    height: 600px;
+    align-items: center; 
+    background-color: black;
+    
+}
+.air {
+    text-align: center;
+    
+}
+.air1 {
+    text-align: center;
+   
+}
+
+.new {
+    text-align: center;
+    color: white;
+}
+.pro {
+    text-align: center;
+    color: white;
+}
+.Pro_img {
+  
+   
+}
+
+.Pro1_img {
+    margin-left: 50px;
+}
+
+footer {
+    background-color: rgb(233, 240, 240);
+    height: 700px;
+    padding: 10px  20px;
+    justify-content: center;
+}
+.paragraf {
+    width: 1100px;
+}
+.paragraf p{
+    font-size: 13px;
+    font-family: 'Times New Roman', Times, serif; 
+    padding: 30px;
+
+}
+.list1 li {
+    color: black;
+    font-size: 15px;
+        
+}
+
+.href {
+    display: flex;
+    flex-direction: row;
+    height: 300px;
+    justify-content: space-around;
+    align-items: center;
+    align-content: space-between;
+}
+
+.watch {
+    align-content: space-between;
+}
+
+.list1 {
+   font-weight: bold;
+   font-size: 20px;
+   padding: 10px;
+}
+ul {
+    flex: 1;
+    list-style: none;
+}
+
+.list1 a {
+    color: black;
+    font-size: 15px;
+    text-decoration: none;
+}
+.list1 a:hover {
+       
+    text-decoration: underline;
+}
+
+.foot1 {
+  
+    height: 50px;
+    display: flex;
+    flex-direction: row;
+   
+}
+.copy {
+    justify-content: flex-end;
+   
+    text-align: center;
+    align-self: center;
+    padding-left: 30px;
+}
+.link  {
+    flex: 1;
+    
+    padding-right: 30px;
+    padding-left: 30px;
+    text-align: center;
+    align-self: center;
+    justify-content: center;
+}
+
+.link ul {
+    
+    list-style: none;
+    display: flex;
+}
+.link ul li {
+    position: relative;
+    text-align: center;
+    justify-content: space-around;
+    width: 150px;
+    padding-top: 10px;
+}
+
+.link a {
+   display: flex;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+   align-items: center;
+    font-size: 15px;   
+    justify-content: center;
+}
+.link a:hover {
+    text-decoration: underline;
+}
+.united_state img {
+    width: 20px;
+    padding-right: 10px;
+}
+@media screen and (min-width: 480px){
+   
+   
+
+    .list ul {
+        display: flex;
+        justify-content: flex-end;
+       
+
+    }
+    .list li {
+        flex:1;
+       
+    }
+
+}
